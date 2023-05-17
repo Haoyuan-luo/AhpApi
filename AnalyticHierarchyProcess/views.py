@@ -9,9 +9,7 @@ from rest_framework import status
 import pandas as pd
 import numpy as np
 import os
-from AnalyticHierarchyProcess.models import AhpModel
 from AnalyticHierarchyProcess.ahp_model import AHP as CalcModel
-from AnalyticHierarchyProcess.serializers import AhpSerializer
 from rest_framework.decorators import api_view
 
 current_path = os.path.abspath(__file__)
